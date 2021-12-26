@@ -4,5 +4,5 @@ def shiftword(inputWord,numShift):
         if(inputWord==alphabet[index]):
             i = index+numShift
     return alphabet[i]
-
+inputText = input("nhap doan text cua ban vao")
 print(shiftword('b',5))
